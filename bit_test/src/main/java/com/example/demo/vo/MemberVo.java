@@ -9,5 +9,6 @@ public class MemberVo {
 	private String pwd;
 	private String name;
 	private String tel;
+	private String addr;
 
 }

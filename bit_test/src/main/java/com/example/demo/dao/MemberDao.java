@@ -12,6 +12,7 @@ import com.example.demo.vo.MemberVo;
 public class MemberDao {
 	
 	public int insert(MemberVo m) {
+		System.out.println("추가하였습니다");
 		return MemberManager.insert(m);
 		
 	}
